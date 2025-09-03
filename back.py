@@ -6,7 +6,7 @@ from pydantic import BaseModel
 from openai import OpenAI
 
 # 讀取環境變數（Render 會設）
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+export = OPENAI_API_KEY = "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"
 if not OPENAI_API_KEY:
     raise RuntimeError("Please set OPENAI_API_KEY as an environment variable")
 
